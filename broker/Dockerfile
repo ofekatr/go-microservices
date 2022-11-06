@@ -10,6 +10,7 @@ RUN CGO_ENABLED=0 go build -o broker_app ./cmd/api
 
 RUN chmod +x broker_app
 
+
 FROM alpine:latest
 
 RUN mkdir /app
